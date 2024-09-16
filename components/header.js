@@ -7,23 +7,17 @@ class Header extends HTMLElement {
     this.innerHTML = `
       <style>
         nav {
-          height: 60px;
+          height: 40px;
           display: flex;
           align-items: center;
-          justify-content: start;
-          background-color: #0a0a23;
-          font-family: "Courier";
-          color: #fff;
+          justify-content: center;
+          background-color:  #0a0a23;
         }
-        
-        h1 {
-          margin: 0 10px 0 20px;
-        }
-        
+
         ul {
           padding: 0;
         }
-        
+
         a {
           font-weight: 700;
           margin: 0 25px;
@@ -35,16 +29,13 @@ class Header extends HTMLElement {
           padding-bottom: 5px;
           box-shadow: inset 0 -2px 0 0 #fff;
         }
-
-        li {
-          display: inline
-        }
       </style>
       <header>
         <nav>
-        <h1><a href="index.html">SMCS Coding Club</a></h1>
           <ul>
-            <li><a href="https://discord.gg/Yg8yutjpP6">Join the Discord</a></li>
+            <li><a href="about.html">hgcjg</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </header>
