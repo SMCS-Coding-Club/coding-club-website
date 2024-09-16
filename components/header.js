@@ -11,13 +11,19 @@ class Header extends HTMLElement {
           display: flex;
           align-items: center;
           justify-content: start;
-          background-color: #0a0a23;
+          background-color: #8b0000;
           font-family: "Courier";
           color: #fff;
         }
         
         h1 {
+          font-size: 30px;
           margin: 0 10px 0 20px;
+        }
+        
+        h2 {
+          margin: 0px;
+          font-size: 25px;
         }
         
         ul {
@@ -39,14 +45,31 @@ class Header extends HTMLElement {
         li {
           display: inline
         }
+        
+        div {
+          background-color: white;
+          color: black;
+          width: 500px;
+          border: 5px solid gold;
+          padding: 4px;
+          margin: auto;
+          margin-right: 0;
+          font-family: Courier;
+          text-align: center;
+        }
       </style>
       <header>
         <nav>
         <h1><a href="/site">SMCS Coding Club</a>
           </h1>
           <ul>
-            <li><a href="https://discord.gg/Yg8yutjpP6">Discord</a></li></ul>
-            <li><a href="https://github.com/SMCS-Coding-Club">Github</a></li></ul>
+            <li><a href="https://discord.gg/Yg8yutjpP6">Discord</a></li>
+            <li><a href="https://github.com/SMCS-Coding-Club">Github</a></li>
+          </ul>
+         <div>
+            <h2>Next Meeting</h2>
+            Wednesday September 19, 12:15, Computer Lab
+         </div>
         </nav>
       </header>
     `;
