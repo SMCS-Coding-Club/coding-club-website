@@ -47,8 +47,8 @@ class Header extends HTMLElement {
         }
         
         div {
-          background-color: white;
-          color: black;
+          background-color: gold;
+          color: white;
           width: 500px;
           border: 5px solid gold;
           padding: 4px;
