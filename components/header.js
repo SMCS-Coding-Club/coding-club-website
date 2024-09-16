@@ -46,6 +46,8 @@ class Header extends HTMLElement {
           </h1>
           <ul>
             <li><a href="https://discord.gg/Yg8yutjpP6">Discord</a></li></ul>
+            <li><a href="https://github.com/SMCS-Coding-Club">Github</a></li></ul>
+            <li>Next Meeting: Wednesday September 19, 12:15, Computer Lab</ul>
         </nav>
       </header>
     `;
