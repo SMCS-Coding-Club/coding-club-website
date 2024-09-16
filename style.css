@@ -9,8 +9,9 @@ html, body {
 }
 
 body {
+  background-color: #f0f8ff;
   color: #333;
-  font-family: sans-serif;
+  font-family: "Courier";
   display: flex;
   flex-direction: column;
 }
