@@ -42,7 +42,7 @@ class Header extends HTMLElement {
       </style>
       <header>
         <nav>
-        <h1><a href="/coding-club-website">SMCS Coding Club</a>
+        <h1><a href="/site">SMCS Coding Club</a>
           </h1>
           <ul>
             <li><a href="https://discord.gg/Yg8yutjpP6">Discord</a></li></ul>
