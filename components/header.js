@@ -68,7 +68,7 @@ class Header extends HTMLElement {
           </ul>
          <div>
             <h2>Next Meeting</h2>
-            Wednesday September 18, 12:15, Computer Lab
+            Thursday September 19, 12:15, Computer Lab
          </div>
         </nav>
       </header>
